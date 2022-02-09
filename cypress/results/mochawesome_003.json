@@ -1,0 +1,143 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-02-09T15:02:52.290Z",
+    "end": "2022-02-09T15:02:55.230Z",
+    "duration": 2940,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "2cde24a3-28ba-42a8-adfa-c9ba92ca0de6",
+      "title": "",
+      "fullFile": "cypress/integration/CreateVirtualAccount.feature",
+      "file": "cypress/integration/CreateVirtualAccount.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "5934f6bb-4d4a-4011-b269-5bba50ddbecc",
+          "title": "Create Virtual Account",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Validate Success Create Virtual Account",
+              "fullTitle": "Create Virtual Account Validate Success Create Virtual Account",
+              "timedOut": null,
+              "duration": 1218,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "ce038317-1f6d-4e79-b1f7-405c3b89129f",
+              "parentUUID": "5934f6bb-4d4a-4011-b269-5bba50ddbecc",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify Failed Create Virtual Account by Input Wrong Bank",
+              "fullTitle": "Create Virtual Account Verify Failed Create Virtual Account by Input Wrong Bank",
+              "timedOut": null,
+              "duration": 544,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "83a99c86-5f7a-4fb3-b610-7d65ac7edc71",
+              "parentUUID": "5934f6bb-4d4a-4011-b269-5bba50ddbecc",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify Success Activate Virtual Account",
+              "fullTitle": "Create Virtual Account Verify Success Activate Virtual Account",
+              "timedOut": null,
+              "duration": 1141,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "d63fb811-3af5-4dfd-ab71-38bd303b2e39",
+              "parentUUID": "5934f6bb-4d4a-4011-b269-5bba50ddbecc",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ce038317-1f6d-4e79-b1f7-405c3b89129f",
+            "83a99c86-5f7a-4fb3-b610-7d65ac7edc71",
+            "d63fb811-3af5-4dfd-ab71-38bd303b2e39"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2903,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}
